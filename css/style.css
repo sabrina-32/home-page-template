@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background: #eeeeee;
+}
+
+.hp-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hp-header{
+    background: #ffffff; ;
+}
+
+.hp-header::after{
+    content: " ";
+    clear: both;
+    display: block;
+    visibility: none;
+}
+
+.hp-logo{
+
+    float: left;
+    width: 30px;
+    height: 30px;
+   
+}
+
+.hp-header-image{
+    width: 30px;
+    float: right;
+
+    height: 30px;
+}
+
+.welcome-area{
+    padding: center;
+}
