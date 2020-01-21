@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, p, ul, li{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.font-light{
+    font-weight: 300;
+}
+
+.width-33 {
+    max-width: 30.33333%;
+}
+.primary-text-color{
+    color: #10cab7;
+    
+}
+.black{
+    color: #2c4755;
+}
+.grey{
+    color: #575757;
+}
+.font-size-16{
+    font-size: 16px;
+}
+.clearfix {
+    overflow: auto;
+}
+.float-left{
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.section-padding{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.header::after {
+    content: " ";
+    clear: both;
+    display: block;
+    visibility: none;
+}
+
+.logo img {
+    width: 150px;
+    float: left;
+}
+
+.main-menu-area {
+    float: right;
+    list-style: none;
+    margin-top: 0px;
+}
+
+.hp-welcome-area {
+    text-align: center;
+    background: #c5c2c2;
+}
+
+.hp-welcome-area   p{
+ margin-top: 30px;
+ font-size: 12px;
+
+}
+
+
+
+.box{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    transition: all 0.4s;
+    margin-top: 100px;
+}
+
+
+.box:hover{
+    box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+    cursor: pointer;
+}
+.box-area{
+    margin-right: -15px;
+    margin-left: -15px;
+    position: relative;
+}
+
+.box h3{
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.box p{
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.box .material-icons{
+
+    height:1rem;
+    font-size: 3.75em;
+    padding-left: 170px ;
+    padding-bottom: 70px;
+
+}
+.box-area::before{
+    position: absolute;
+    content: 'SERVICE';
+    font-size: 40px;
+    color: #f6f6f6;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.box-area::after{
+    position: absolute;
+    content: "Don't be busy, be productive";
+    font-size: 12px;
+    color: #575757;
+    top: 33px;
+    left: 52%;
+    transform: translate(-50%, -50%);
+}
+
+
+.service-container {
+    width: 100%;
+    max-width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.service-container  .service-box{
+
+    width: 600px;
+    margin: 140px auto;
+    background: #ffffff;
+    display: table;
+
+}
+
+.service-container  .service-box .service-box-row{
+
+    display: table-row;
+
+}
+
+.service-container  .service-box .service-box-row .service-box-cell-1{
+
+    display: table-cell;
+    width: 50%;
+    padding: 20px;
+
+}
