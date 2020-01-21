@@ -32,13 +32,49 @@ body{
    
 }
 
-.hp-header-image{
+.hp-header-menu-image{
     width: 30px;
     float: right;
 
     height: 30px;
 }
 
-.welcome-area{
+.hp-welcome-area{
     padding: center;
+    margin-left: 40%;
+    margin-top: 50px;
+    
 }
+h1{
+    color: rgb(39, 161, 161);
+}
+p{
+    color: black;
+    margin-top: 30px;
+}
+
+.hp-about-container{
+    margin-top: 100px;
+    background: #ffffff;
+}
+
+.hp-about-container{
+    width: 100%;
+    height: 300px;
+    background: #ffffff;
+}
+.box1, .box2 {
+    width: calc(100% /3);
+    height: 300px;
+
+    background: rgb(187, 135, 135);
+}
+
+
+.box2{
+   
+    background: rgb(196, 122, 122);
+    float: left;
+}
+
+
