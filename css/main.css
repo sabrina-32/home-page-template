@@ -149,33 +149,55 @@ body {
 }
 
 
-.content{
+.service-container{
 
 width: 100vw;
 height: 100vh;
 }
 
 
-.content .left{
+.service-container .left{
 
   position: absolute;
   top: 100;
   left: 0;
   width: 60vw;
   height: 300px;
-  background: #c0a6a6;
 }
 
 
 
 
 
-.content .right {
+.service-container .right {
     position: absolute;
     left: 60vw;
     top: 100;
     height: 300px;
     width: 40vw;
-    background: #c5c2c2;
+
+  }
+
+
+  .service-container .right .box1{
+
+    height: 280px;
+    width: 55px;
+    background: #2c4755;
+    margin-left: 220px;
+    position: absolute;
+    margin-top: 10px;
+  }
+ 
+  
+  .service-container .right .box2{
+
+    height: 200px;
+    width: 200px;
+    background: #ebeced;
+    margin-left: 55px;
+    margin-top:50px ;
+    z-index: 1;
+    position: relative;
 
   }
