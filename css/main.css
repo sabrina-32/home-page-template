@@ -30,6 +30,9 @@ body {
 .grey{
     color: #575757;
 }
+.f8f2f2{
+    color: #eedede;
+}
 .font-size-16{
     font-size: 16px;
 }
@@ -201,3 +204,29 @@ height: 100vh;
     position: relative;
 
   }
+
+
+ 
+
+  
+ .image-area{
+
+    padding-bottom: 170px;
+    width: 100%;
+    background: #f8f2f2;
+
+}
+.protfolio-box-container{
+    width: 100%;
+    max-width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.text-area{
+
+    padding: 20px;
+    padding-left: 0px;
+}
